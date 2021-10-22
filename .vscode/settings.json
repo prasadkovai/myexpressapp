@@ -1,0 +1,13 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}",
+        ".env",
+        "test{,/**}"
+    ],
+    "appService.deploySubpath": ".",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "appService.defaultWebAppToDeploy": "/subscriptions/efd98606-66eb-429f-a357-355467790580/resourceGroups/edinventory/providers/Microsoft.Web/sites/vscodenode",
+}
